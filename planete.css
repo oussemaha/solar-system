@@ -1,0 +1,98 @@
+
+#back_vid{
+    position: fixed;
+    right: 0px;
+    top: -30px;
+    min-width: 100%; 
+    min-height: 100%;
+}
+img{
+    position : relative;
+    right:255px;
+    top:20px;
+}
+ul{
+    list-style-type: none;
+}
+h1{
+    text-align: center;
+    text-decoration: none;
+    font-size: 45px;
+    font-family: Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+}
+h2{
+    text-decoration: underline;
+    font-family: Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+}
+p{
+    line-height: 35px;
+    color: rgb(204, 204, 204);
+    font-size:large;
+    font-family: Arial, sans-serif; 
+    margin-bottom:45px;
+}
+ol>li{
+    line-height: 35px;
+    color: rgb(204, 204, 204);
+    font-size:large;
+    font-family: Arial, sans-serif; 
+}
+.s1{
+    margin-top:100px;
+    margin-bottom:100px;
+}
+#bloc_page{
+    border: solid 2px white;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.219);
+    padding: 15px;
+    padding-left: 50px;
+    margin-bottom: 150px;
+    
+}
+#bloc_ext{
+    position: absolute;
+    top: 150px;
+    right: 120px;
+    width: 850px;
+}
+body::-webkit-scrollbar { 
+    display: none; 
+}
+#taswira{
+    position: fixed;
+    top: 100px;
+    left:20px;
+    border-radius: 50%;
+    width: 427px;
+    height: 427px;
+   background-size:427px;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+#taswira>nav{
+    margin-top: 165px;
+    margin-right: 40px;
+}
+#taswira>nav>ul>li>a:link{
+    text-decoration:none;
+    color:white;
+    font-size: 25px;
+}
+#taswira>nav>ul>li>a:visited{
+    text-decoration:none;
+    color:white;
+    font-size: 25px;
+}
+#taswira>nav>ul>li>a:hover{
+    color:black;
+    font-size: 25px;
+}
+#logo{
+    position: fixed;
+    right: -250px;
+    top: -10px;
+}

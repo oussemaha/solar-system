@@ -1,0 +1,89 @@
+<DOCTYPE HTML>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Mercure</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="planete.css">
+            <script src="script.js"></script>
+        </head>
+        <body>
+            <div id="bloc" class="">
+            <video playinline autoplay muted loop id="back_vid" >
+                <source src="./media/back_vid1.mp4" type="video/mp4">
+            </video>
+            <div id="taswira" style="background-image: url('./media/mercure.png');box-shadow: 0px 0px 50px rgb(255, 255, 255);">
+                <nav>
+                    <ul>
+                       <li><a href="#Formation">Formation</a></li>
+                       <li><a href="#Distance">Distance</a></li>
+                       <li><a href="#Structure">Structure</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="bloc_ext">
+            <div id="bloc_page">
+            <header>
+                <h1>Mercure</h1>
+            </header>
+            <div>
+                <p>Mercure est la plus petite planète du système solaire et la plus proche du Soleil, avec une période de révolution (le temps qu'une planète met à tourner autour de son étoile) de 88 jours (c'est la plus rapide du système solaire). Elle n'a pas de satellite connu. Son nom provient du dieu romain Mercure, en raison de sa vitesse de révolution.</p>
+                <h2 id="Formation">Formation</h2>
+                <p>Mercure s'est formée il y a environ 4 milliards d'années. Comme toutes les planètes du Système solaire, elle a subi de nombreux impacts de météorites, qui ont permis des écoulements de lave, ce qui a formé de vastes plaines. La surface de Mercure a très peu changé depuis car il n'y a pas eu d'éléments modifiant la surface de la planète par l'érosion comme du vent ou de l'eau. La surface est aujourd'hui couverte de cratères, comme la Lune.</p> 
+                <h2 id="Distance">Distance</h2>
+                <p>La distance de Mercure du soleil est de 66.962 million km</p>  
+                <h2 id="Structure">Structure</h2>
+                <p>Mercure est une planète tellurique, c'est-à-dire qu'elle est composée de roches et de métaux par opposition aux planètes gazeuses, constituées essentiellement de gaz.
+                   Mercure possède un gros noyau riche en fer, d'un diamètre de 3 600 km, ce qui est gros par rapport au diamètre de la planète de 4 880 km. Par comparaison, si le noyau de la Terre contient 33 % de la masse de notre planète, celui de Mercure contient plus de 55 % de sa masse. Ce noyau rend la planète très dense, la plus dense des planètes du système solaire. Ce noyau ferreux donne également à la planète un champ magnétique, mais il fait seulement 1,1 % de la puissance de celui de la Terre. Il ne suffit donc pas à protéger la planète du vent solaire, mais le ralentit seulement. La présence d'un aussi gros noyau pour une petite planète reste actuellement un mystère, les futures sondes tenterons de savoir pourquoi.
+                   Autour de ce noyau, Mercure possède un manteau rocheux de 600 kilomètres d'épaisseur et, encore au-dessus, une croûte rocheuse de 100 à 200 kilomètres d'épaisseur6.
+                </p>
+            </div>
+            </div>
+            </div>                
+            </div>
+
+
+        <div class="hide" id="popup">
+            <button onclick="bouton()" class="btn"><i class="fa fa-close"></i></button>
+            <br>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="Soleil.html">Soleil</a>
+                <a href="Mercure.html">Mercure</a>
+                <a href="Venus.html">Vénus</a>
+                <a href="Terre.html">Terre</a>
+                <a href="Mars.html">Mars</a>
+                <a href="Jupiter.html">Jupiter</a>
+                <a href="Saturne.html">Saturne</a>
+                <a href="Uranus.html">Uranus</a>
+                <a href="Neptune.html">Neptune</a>
+            </nav>
+            <br>
+            <form >
+                <fieldset>
+                    <legend>Newsletter</legend>
+                    email : 
+                    <input type="email" name="" id=""><br><br>
+                    Interests
+                    <ul >
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                    </ul>
+                    Fréquence
+                    <ul>
+                        <li><input type="radio" name="radio" checked>chaque semaine</li>
+                        <li><input type="radio" name="radio">tous les jours</li>
+                        <li><input type="radio" name="radio">chaque 3 mois</li>
+                    </ul>
+                </fieldset>
+                <button type="submit">Subscribe</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+        <div id="logo"><img src="./media/FSTLOGO.png" width="100px" alt="Logo Fst"></div>
+        <button id="more_in" class="btn" onclick="bouton()"><i class="fa fa-bars"></i></button>
+    </html>

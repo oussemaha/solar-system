@@ -1,0 +1,90 @@
+<DOCTYPE HTML>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Neptune</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="planete.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="script.js"></script>
+        </head>
+        <body>
+            
+            <div id="bloc" class="">
+            <video playinline autoplay muted loop id="back_vid" >
+                <source src="./media/back_vid1.mp4" type="video/mp4">
+            </video>
+            
+            <div id="taswira" style="background-image: url('./media/neptune.png');box-shadow: 0px 0px 50px rgb(111, 152, 228);background-size:435px;background-position:-6px -5px;">
+                <nav>
+                    <ul>
+                        <li><a href="#Formation">Formation</a></li>
+                        <li><a href="#Distance">Distance</a></li>
+                        <li><a href="#Structure">Structure</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="bloc_ext">
+            <div id="bloc_page">
+            <header>
+                <h1>Neptune</h1>
+            </header>
+           
+            <div>
+                <p>La plus éloignée depuis le déclassement de Pluton, Neptune est la 8e et dernière planète du système solaire et la plus lointaine des géantes gazeuses. Son nom vient du dieu romain des océans, Neptune (Poséidon dans la mythologie grecque).</p>
+                <h2 id="Formation">Formation</h2>
+                <p>Neptune mesure 49 244 kilomètres de diamètre, ce qui en fait la plus petite géante gazeuse du système solaire. Elle fait 17 fois la masse de la Terre, et 4 fois son diamètre. Par rapport à sa taille, elle est très massive, Uranus, bien que légèrement plus grande, est moins massive. Neptune, tout comme Uranus, est placée dans la catégorie des géantes glacées, il s'agit d'une sous-catégorie de géante gazeuse dont l'atmosphère contient des matériaux volatiles, comme par exemple le méthane et l'ammoniac.</p> 
+                <h2 id="Distance">Distance</h2>
+                <p>La distance de Neptune du Soleil est de 4,495 milliards de km ou 30 UA (unité astronomique). </p>  
+                <h2 id="Structure">Structure</h2>
+                <p>Neptune est composée de trois "couches": au centre, le noyau, qui est composée de silicate, de roche de fer et de nickel. Le manteau, qui est composée d'eau, d'ammoniaque et de méthane gelés. La troisième couche, l’atmosphère, ou la surface, est composée d'hydrogène, d'hélium et de méthane gazeux.</p>
+            </div>
+        </div>
+            </div>
+            </div>
+
+        <div class="hide" id="popup">
+            <button onclick="bouton()" class="btn"><i class="fa fa-close"></i></button>
+            <br>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="Soleil.html">Soleil</a>
+                <a href="Mercure.html">Mercure</a>
+                <a href="Venus.html">Vénus</a>
+                <a href="Terre.html">Terre</a>
+                <a href="Mars.html">Mars</a>
+                <a href="Jupiter.html">Jupiter</a>
+                <a href="Saturne.html">Saturne</a>
+                <a href="Uranus.html">Uranus</a>
+                <a href="Neptune.html">Neptune</a>
+            </nav>
+            <br>
+            <form >
+                <fieldset>
+                    <legend>Newsletter</legend>
+                    email : 
+                    <input type="email" name="" id=""><br><br>
+                    Interests
+                    <ul >
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                    </ul>
+                    Fréquence
+                    <ul>
+                        <li><input type="radio" name="radio" checked>chaque semaine</li>
+                        <li><input type="radio" name="radio">tous les jours</li>
+                        <li><input type="radio" name="radio">chaque 3 mois</li>
+                    </ul>
+                </fieldset>
+                <button type="submit">Subscribe</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+            <button id="more_in" class="btn" onclick="bouton()"><i class="fa fa-bars"></i></button>
+            
+            <div id="logo"><img src="./media/FSTLOGO.png" width="100px" alt="Logo Fst"></div>
+        </body>
+    </html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Système solaire</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    <div id="bloc" class="">
+    <video autoplay muted loop id="back_vid">
+        <source src="./media/back_vid1.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    <header class="header_fix">
+        <center><h1 class="fou9">Systeme solaire</h1></center>
+    </header>
+    <div id="main" class="">
+        <a href="Soleil.html" class="planete" id="soleil"><img src="./media/soleil.png" alt="soleil"></a>
+        <a href="Mercure.html" class="planete" id="mercure"><img src="./media/mercure.png" alt="mercure"></a>
+        <a href="Venus.html" class="planete" id="venus"><img src="./media/venus.png" alt="vénus"></a>
+        <a href="Terre.html" class="planete" id="terre"><img src="./media/terre.png" alt="terre"></a>
+        <a href="Mars.html" class="planete" id="mars"><img src="./media/mars.png" alt="mars"></a>
+        <a href="Jupiter.html" class="planete" id="jupiter"><img src="./media/jupiter.png" alt="jupiter"></a>
+        <a href="Saturne.html" class="planete" id="saturne"><img src="./media/saturn1.png" alt="saturne"></a>
+        <a href="Uranus.html" class="planete" id="uranus"><img src="./media/uranus.png" alt="uranus"></a>
+        <a href="Neptune.html" class="planete" id="neptune"><img src="./media/neptune.png" alt="neptune"></a>
+    </div>
+    </div>
+    <div class="hide" id="popup">
+        <button onclick="bouton()" class="btn"><i class="fa fa-close"></i></button>
+        <br>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Soleil.html">Soleil</a>
+            <a href="Mercure.html">Mercure</a>
+            <a href="Venus.html">Vénus</a>
+            <a href="Terre.html">Terre</a>
+            <a href="Mars.html">Mars</a>
+            <a href="Jupiter.html">Jupiter</a>
+            <a href="Saturne.html">Saturne</a>
+            <a href="Uranus.html">Uranus</a>
+            <a href="Neptune.html">Neptune</a>
+        </nav>
+        <br>
+        <form >
+            <fieldset>
+                <legend>Newsletter</legend>
+                email : 
+                <input type="email" name="" id=""><br><br>
+                Interests
+                <ul >
+                    <li ><input type="checkbox" name="check" id="">####</li>
+                    <li ><input type="checkbox" name="check" id="">####</li>
+                    <li ><input type="checkbox" name="check" id="">####</li>
+                    <li ><input type="checkbox" name="check" id="">####</li>
+                    <li ><input type="checkbox" name="check" id="">####</li>
+                </ul>
+                Fréquence
+                <ul>
+                    <li><input type="radio" name="radio" checked>chaque semaine</li>
+                    <li><input type="radio" name="radio">tous les jours</li>
+                    <li><input type="radio" name="radio">chaque 3 mois</li>
+                </ul>
+            </fieldset>
+            <button type="submit">Subscribe</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+    <button id="more_in" class="btn" onclick="bouton()"><i class="fa fa-bars"></i></button>
+    <div id="logo"><img src="./media/FSTLOGO.png" width="100px" alt="Logo Fst"></div>
+</body>
+</html>

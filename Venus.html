@@ -1,0 +1,88 @@
+<DOCTYPE HTML>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Venus</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="planete.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="script.js"></script>
+        </head>
+        <body>
+            <div id="bloc" class="">
+            <video playinline autoplay muted loop id="back_vid" >
+                <source src="./media/back_vid1.mp4" type="video/mp4">
+            </video>
+            <div id="taswira" style="background-image: url('./media/venus.png');box-shadow: 0px 0px 50px rgb(145, 202, 255);background-position: -1px -17px;">
+                <nav>
+                    <ul>
+                        <li><a href="#Formation">Formation</a></li>
+                        <li><a href="#Distance">Distance</a></li>
+                        <li><a href="#Structure">Structure</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="bloc_ext">
+            <div id="bloc_page">
+            <header>
+                <h1>Venus</h1>
+            </header>
+        
+            <div>
+                <p>Vénus est la sixième planète en dimensions. Comptée depuis le Soleil, son orbite est la deuxième du système solaire (après celle de Mercure). Cette planète rocheuse, légèrement plus petite et moins massive que la Terre, est la plus chaude du système solaire.</p>
+                <h2 id="Formation">Formation</h2>
+                <p>Âgée de 4,503 milliards d'années, on peut la reconnaître grâce à son épaisse atmosphère qui cache toute sa surface, et ses couleurs caractéristiques qui tirent du jaune à l'orange.</p> 
+                <h2 id="Distance">Distance</h2>
+                <p>La distance entre elle et le soleil est de 104 000 000 km (0,7 U.A).</p>  
+                <h2 id="Structure">Structure</h2>
+                <p>D'après les informations recueillies par la sonde américaine Magellan, la structure interne de Vénus serait effectivement comparable à la structure terrestre. Elle serait donc composée d'un noyau interne solide, appelé la graine, et d'un noyau externe liquide.
+                </p>
+            </div>
+            </div>
+            </div>                
+            </div>
+
+        <div class="hide" id="popup">
+            <button onclick="bouton()" class="btn"><i class="fa fa-close"></i></button>
+            <br>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="Soleil.html">Soleil</a>
+                <a href="Mercure.html">Mercure</a>
+                <a href="Venus.html">Vénus</a>
+                <a href="Terre.html">Terre</a>
+                <a href="Mars.html">Mars</a>
+                <a href="Jupiter.html">Jupiter</a>
+                <a href="Saturne.html">Saturne</a>
+                <a href="Uranus.html">Uranus</a>
+                <a href="Neptune.html">Neptune</a>
+            </nav>
+            <br>
+            <form >
+                <fieldset>
+                    <legend>Newsletter</legend>
+                    email : 
+                    <input type="email" name="" id=""><br><br>
+                    Interests
+                    <ul >
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                    </ul>
+                    Fréquence
+                    <ul>
+                        <li><input type="radio" name="radio" checked>chaque semaine</li>
+                        <li><input type="radio" name="radio">tous les jours</li>
+                        <li><input type="radio" name="radio">chaque 3 mois</li>
+                    </ul>
+                </fieldset>
+                <button type="submit">Subscribe</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+        <div id="logo"><img src="./media/FSTLOGO.png" width="100px" alt="Logo Fst"></div>
+            <button id="more_in" class="btn" onclick="bouton()"><i class="fa fa-bars"></i></button>
+        </body>
+    </html>

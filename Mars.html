@@ -1,0 +1,89 @@
+<DOCTYPE HTML>
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>Mars</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="planete.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script src="script.js"></script>
+        </head>
+        <body>
+            <div id="bloc" class="">
+            <video playinline autoplay muted loop id="back_vid" >
+                <source src="./media/back_vid1.mp4" type="video/mp4">
+            </video>
+            <div id="taswira" style="background-image: url('./media/mars.png');box-shadow: 0px 0px 50px rgb(253, 191, 57);">
+                <nav>
+                    <ul>
+                        <li><a href="#Formation">Formation</a></li>
+                        <li><a href="#Distance">Distance</a></li>
+                        <li><a href="#Structure">Structure</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="bloc_ext">
+                            <div id="bloc_page" >
+            <header>
+                <h1>Mars</h1>
+            </header>
+            
+            <div>
+                <p>Mars est la quatrième planète du Système solaire. Sa couleur rouge est donnée par l'abondance d'oxyde de fer (rouille) sur sa surface. Il est facile de trouver Mars dans le ciel grâce à sa couleur, même à l'œil nu.</p>
+                <h2 id="Formation">Formation</h2>
+                <p>Le lieu de naissance de la Planète rouge se situerait quelque part dans la région de la Ceinture d'astéroïdes si l'on veut tenir compte de toutes les contraintes de la cosmochimie et de la mécanique céleste. Mars s'y serait formée en 5 à 10 millions d'années tout au plus.</p> 
+                <h2 id="Distance">Distance</h2>
+                <p>Mars est située à environ 228 millions de kilomètres du Soleil.</p>  
+                <h2 id="Structure">Structure</h2>
+                <p>Mars n'a pas d'océan à sa surface mais il y a de la glace sur l'un de ses pôles (de la glace d'eau mais aussi de la neige carbonique, c'est-à-dire du C02 gelé). </p>
+            </div>
+        </div>
+            </div>
+            </div>
+            
+
+
+        <div class="hide" id="popup">
+            <button onclick="bouton()" class="btn"><i class="fa fa-close"></i></button>
+            <br>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="Soleil.html">Soleil</a>
+                <a href="Mercure.html">Mercure</a>
+                <a href="Venus.html">Vénus</a>
+                <a href="Terre.html">Terre</a>
+                <a href="Mars.html">Mars</a>
+                <a href="Jupiter.html">Jupiter</a>
+                <a href="Saturne.html">Saturne</a>
+                <a href="Uranus.html">Uranus</a>
+                <a href="Neptune.html">Neptune</a>
+            </nav>
+            <br>
+            <form >
+                <fieldset>
+                    <legend>Newsletter</legend>
+                    email : 
+                    <input type="email" name="" id=""><br><br>
+                    Interests
+                    <ul >
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                        <li ><input type="checkbox" name="check" id="">####</li>
+                    </ul>
+                    Fréquence
+                    <ul>
+                        <li><input type="radio" name="radio" checked>chaque semaine</li>
+                        <li><input type="radio" name="radio">tous les jours</li>
+                        <li><input type="radio" name="radio">chaque 3 mois</li>
+                    </ul>
+                </fieldset>
+                <button type="submit">Subscribe</button>
+                <button type="reset">Reset</button>
+            </form>
+        </div>
+        <div id="logo"><img src="./media/FSTLOGO.png" width="100px" alt="Logo Fst"></div>
+        <button id="more_in" class="btn" onclick="bouton()"><i class="fa fa-bars"></i></button>
+        </body>
+    </html>
